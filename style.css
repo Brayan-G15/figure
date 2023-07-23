@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    background-color: white;
+}
+
+header{
+    background-color:#39a900 !important;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    
+}
+
+#cabecera {
+    display: flex;
+    position: relative;
+    width: 20%;
+    left: 80%;
+    bottom: 80px;
+    
+}
+#cabecera img {
+    width: 125px;
+}
+body header p {
+    font-size: 20px;
+}
+h1 {
+    font-size: 50px;
+}
+
+
+.container {
+    display: flex;
+}
+
+#cuadro {
+    border-radius: 20px;
+    background-color: #9d9b9b;
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+   
+}
+
+#cuadro h2 {
+   
+    font-size: 21px;
+    color: azure;
+    height: 20%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#cuadro form label {
+    font-size: 18px;
+    padding: 20px;
+    color: #d5dfef;
+}
+#cuadro button {
+    display: inline
+}
+
+#cuadrados{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    
+}
+#inputCuadrado {
+    padding: 8px;
+}
+
+#triangulo {
+    border-radius: 20px;
+    background-color:#9d9b9b;
+    width: 30%;
+    margin: 20px;
+}
+#triangulo h2 {
+    
+    font-size: 18px;
+    color: azure;
+
+    border-radius: 10px;
+    text-align: center;
+
+}
+#triangulo label {
+    font-size: 16px;
+    text-align: center;
+    padding: 20%;
+    color: #d5dfef;
+}
+#lados input{
+    font-size: 10px;
+    width: 35%;
+    margin: 4.5px;
+    padding: 8px;
+}
+#circulo {
+    border-radius: 20px;
+    background-color: #9d9b9b;
+    width: 30%;
+    margin: 20px;
+}
+
+#circulo h2 {
+   
+    font-size: 21px;
+    color: azure;
+    height: 20%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+#circulo label {
+    font-size: 18px;
+    color: #d5dfef;
+}
+#circulo input {
+    padding: 10px;
+}
+
+#circulos {
+    display: flex;
+    padding: 25px;
+    margin: 20px;
+}
+
+button{
+    padding: 9px;
+    border-radius: 50px;
+    background-color: #70d33f;
+}
+
+input{
+    background-color: rgb(246 246 241);
+    padding: 8px;
+}
+footer {
+    background-color: #39a900 !important;
+    display: flex;
+    justify-content: center;
+}
+footer span{
+    
+    height: 20px;
+    color: white;
+    font-weight: 700;
+}
